@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "CUDA Debug",
+        "type": "cuda-gdb",
+        // "type": "cppdbg",
+        "request": "launch",
+        // "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+        // "program": "${fileBasenameNoExtension}",
+        "program": "/root/diffusion/build/program",
+        // "preLaunchTask": "CUDA Build",
+        // "verboseLogging": true,
+        // "breakOnLaunch": true
+  
+        // "cwd": ".",
+        // "miDebuggerPath": "/usr/bin/gdb"
+        // "miDebuggerPath": "/usr/local/cuda/bin/cuda-gdb"
+      },
+    ]
+  }
+  
